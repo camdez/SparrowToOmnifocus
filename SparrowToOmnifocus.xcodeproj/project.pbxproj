@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32C84BBE13DB16580079A822 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32C84BBD13DB16580079A822 /* Cocoa.framework */; };
+		32C84BC813DB16580079A822 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 32C84BC613DB16580079A822 /* InfoPlist.strings */; };
+		32C84BCA13DB16580079A822 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C84BC913DB16580079A822 /* main.m */; };
+		32C84BCE13DB16580079A822 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 32C84BCC13DB16580079A822 /* Credits.rtf */; };
+		32C84BD113DB16580079A822 /* SparrowToOmnifocusAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C84BD013DB16580079A822 /* SparrowToOmnifocusAppDelegate.m */; };
+		32C84BD413DB16590079A822 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 32C84BD213DB16590079A822 /* MainMenu.xib */; };
+		32C84BE213DB17350079A822 /* DropView.m in Sources */ = {isa = PBXBuildFile; fileRef = 32C84BE113DB17350079A822 /* DropView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		32C84BB913DB16580079A822 /* SparrowToOmnifocus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SparrowToOmnifocus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32C84BBD13DB16580079A822 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		32C84BC013DB16580079A822 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		32C84BC113DB16580079A822 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		32C84BC213DB16580079A822 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		32C84BC513DB16580079A822 /* SparrowToOmnifocus-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SparrowToOmnifocus-Info.plist"; sourceTree = "<group>"; };
+		32C84BC713DB16580079A822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		32C84BC913DB16580079A822 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32C84BCB13DB16580079A822 /* SparrowToOmnifocus-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SparrowToOmnifocus-Prefix.pch"; sourceTree = "<group>"; };
+		32C84BCD13DB16580079A822 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		32C84BCF13DB16580079A822 /* SparrowToOmnifocusAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SparrowToOmnifocusAppDelegate.h; sourceTree = "<group>"; };
+		32C84BD013DB16580079A822 /* SparrowToOmnifocusAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SparrowToOmnifocusAppDelegate.m; sourceTree = "<group>"; };
+		32C84BD313DB16590079A822 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		32C84BE013DB17350079A822 /* DropView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropView.h; sourceTree = "<group>"; };
+		32C84BE113DB17350079A822 /* DropView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32C84BB613DB16580079A822 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C84BBE13DB16580079A822 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32C84BAE13DB16580079A822 = {
+			isa = PBXGroup;
+			children = (
+				32C84BC313DB16580079A822 /* SparrowToOmnifocus */,
+				32C84BBC13DB16580079A822 /* Frameworks */,
+				32C84BBA13DB16580079A822 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32C84BBA13DB16580079A822 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32C84BB913DB16580079A822 /* SparrowToOmnifocus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32C84BBC13DB16580079A822 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C84BBD13DB16580079A822 /* Cocoa.framework */,
+				32C84BBF13DB16580079A822 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		32C84BBF13DB16580079A822 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32C84BC013DB16580079A822 /* AppKit.framework */,
+				32C84BC113DB16580079A822 /* CoreData.framework */,
+				32C84BC213DB16580079A822 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		32C84BC313DB16580079A822 /* SparrowToOmnifocus */ = {
+			isa = PBXGroup;
+			children = (
+				32C84BCF13DB16580079A822 /* SparrowToOmnifocusAppDelegate.h */,
+				32C84BD013DB16580079A822 /* SparrowToOmnifocusAppDelegate.m */,
+				32C84BD213DB16590079A822 /* MainMenu.xib */,
+				32C84BC413DB16580079A822 /* Supporting Files */,
+				32C84BE013DB17350079A822 /* DropView.h */,
+				32C84BE113DB17350079A822 /* DropView.m */,
+			);
+			path = SparrowToOmnifocus;
+			sourceTree = "<group>";
+		};
+		32C84BC413DB16580079A822 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32C84BC513DB16580079A822 /* SparrowToOmnifocus-Info.plist */,
+				32C84BC613DB16580079A822 /* InfoPlist.strings */,
+				32C84BC913DB16580079A822 /* main.m */,
+				32C84BCB13DB16580079A822 /* SparrowToOmnifocus-Prefix.pch */,
+				32C84BCC13DB16580079A822 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32C84BB813DB16580079A822 /* SparrowToOmnifocus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32C84BD713DB16590079A822 /* Build configuration list for PBXNativeTarget "SparrowToOmnifocus" */;
+			buildPhases = (
+				32C84BB513DB16580079A822 /* Sources */,
+				32C84BB613DB16580079A822 /* Frameworks */,
+				32C84BB713DB16580079A822 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SparrowToOmnifocus;
+			productName = SparrowToOmnifocus;
+			productReference = 32C84BB913DB16580079A822 /* SparrowToOmnifocus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32C84BB013DB16580079A822 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Too Much Tea, LLC";
+			};
+			buildConfigurationList = 32C84BB313DB16580079A822 /* Build configuration list for PBXProject "SparrowToOmnifocus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 32C84BAE13DB16580079A822;
+			productRefGroup = 32C84BBA13DB16580079A822 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32C84BB813DB16580079A822 /* SparrowToOmnifocus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32C84BB713DB16580079A822 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C84BC813DB16580079A822 /* InfoPlist.strings in Resources */,
+				32C84BCE13DB16580079A822 /* Credits.rtf in Resources */,
+				32C84BD413DB16590079A822 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32C84BB513DB16580079A822 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32C84BCA13DB16580079A822 /* main.m in Sources */,
+				32C84BD113DB16580079A822 /* SparrowToOmnifocusAppDelegate.m in Sources */,
+				32C84BE213DB17350079A822 /* DropView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		32C84BC613DB16580079A822 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C84BC713DB16580079A822 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		32C84BCC13DB16580079A822 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C84BCD13DB16580079A822 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		32C84BD213DB16590079A822 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32C84BD313DB16590079A822 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32C84BD513DB16590079A822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		32C84BD613DB16590079A822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		32C84BD813DB16590079A822 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparrowToOmnifocus/SparrowToOmnifocus-Prefix.pch";
+				INFOPLIST_FILE = "SparrowToOmnifocus/SparrowToOmnifocus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		32C84BD913DB16590079A822 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SparrowToOmnifocus/SparrowToOmnifocus-Prefix.pch";
+				INFOPLIST_FILE = "SparrowToOmnifocus/SparrowToOmnifocus-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32C84BB313DB16580079A822 /* Build configuration list for PBXProject "SparrowToOmnifocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C84BD513DB16590079A822 /* Debug */,
+				32C84BD613DB16590079A822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32C84BD713DB16590079A822 /* Build configuration list for PBXNativeTarget "SparrowToOmnifocus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32C84BD813DB16590079A822 /* Debug */,
+				32C84BD913DB16590079A822 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32C84BB013DB16580079A822 /* Project object */;
+}
