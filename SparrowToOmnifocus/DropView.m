@@ -32,11 +32,19 @@
 }
 
 - (BOOL)performDragOperation:(id <NSDraggingInfo>)sender {
+    NSPasteboard*  pasteboard  = [NSPasteboard generalPasteboard];
+    NSString* str = [pasteboard  stringForType:NSPasteboardTypeString];
+    if (str == nil) str = @"";
+    
     for (NSPasteboardItem* item in [[sender draggingPasteboard] pasteboardItems]) {
-        [self createOmnifocusTaskWithName:[item stringForType:@"public.url-name"]
-                                  andNote:[item stringForType:@"public.url"]];
+        if ([item stringForType:@"public.url-name"]) {
+        
+            NSString *note = [NSString stringWithFormat:@"%@\n\n%@", [item stringForType:@"public.url"], str];
+            [self createOmnifocusTaskWithName:[item stringForType:@"public.url-name"]
+                                  andNote:note];
+        }
     }
-
+    
     return YES;
 }
 
